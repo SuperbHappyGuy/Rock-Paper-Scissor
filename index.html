@@ -9,6 +9,13 @@
 </head>
 
 <body>
+  <div id= "banner">
+    <button><a href="about.html">About</a></button>
+    <button>Tutorial</button>
+    <button>Help</button>
+    <button>Contact</button>
+  </div>
+  
   <div id= "Title">
     <h1>Rock! Paper! Sicssors!</h1>
   </div>
@@ -18,11 +25,12 @@
   </div>
   
    <script id= "logic" type="text/javascript" src="./script.js"></script>
+  <p id= "game"></p>
 
   <div>
-    <button onclick="test()" type= "button">Rock</button>
-    <button onclick="test()" type= "button">Paper</button>
-    <button type = "button" onclick= "test()">Sicssor</button>
+    <button type= "button" onclick="test()" id= "rock">Rock</button>
+    <button onclick="test()" type= "button" id= "paper">Paper</button>
+    <button type = "button" onclick= "test()" id = "scissors">Sicssors</button>
     
     <h4>You</h4>
   </div>
