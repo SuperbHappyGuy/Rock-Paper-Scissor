@@ -1,3 +1,7 @@
+$(function(){
+  $("#includedContent").load("../index.html"); 
+});
+
 var rock = 1;
 var paper = 2;
 var sicssors = 3;
