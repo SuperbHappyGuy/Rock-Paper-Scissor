@@ -6,7 +6,6 @@ document.write(paper + "<br>");
 document.write("----------------" + "<br>");
 test1 = document.write(paper);
 
-
 window.onload = function() {
   const btns = document.querySelectorAll('.btn');
 
